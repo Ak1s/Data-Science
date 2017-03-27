@@ -4,7 +4,7 @@
 rm(list=ls(all=TRUE))
 explort.flag <- T
 
-setwd("/Users/theodorospapathanasiou/Documents/Coursera/Data-Science/Data-Science/Exploratory-Data-Analysis/")
+setwd("/Users/username/Documents/Coursera/Data-Science/Data-Science/Exploratory-Data-Analysis/")
 file.name <- "household_power_consumption.txt"
 
 el.data <- read.table(file.name, header=TRUE, sep=";", stringsAsFactors=FALSE, dec=".")
